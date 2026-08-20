@@ -5,12 +5,12 @@
 
 [English]
 Your Task:
-1. Create a new directory named 'lab_test' inside /tmp.
+1. Create a new directory named 'lab_test' inside your Home directory (~/).
 2. Create an empty file named 'hello.txt' inside that directory.
 
 [தமிழ்]
 உங்கள் டாஸ்க்:
-1. /tmp டைரக்டரிக்குள் 'lab_test' என்ற பெயரில் ஒரு புதிய டைரக்டரியை உருவாக்குங்கள்.
+1. உங்கள் Home டைரக்டரிக்குள் (~/) 'lab_test' என்ற பெயரில் ஒரு புதிய டைரக்டரியை உருவாக்குங்கள்.
 2. அந்த டைரக்டரிக்குள் 'hello.txt' என்ற ஃபைலை உருவாக்குங்கள்.
 
 ----------------------------------------
