@@ -1,4 +1,4 @@
-cat << 'EOF' > missions/01-fundamentals/instructions.txt
+
 ========================================
  🚀 Mission 1: Linux Fundamentals 
 ========================================
