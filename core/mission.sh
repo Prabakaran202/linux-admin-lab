@@ -18,9 +18,16 @@ start_mission() {
             echo -e "\n----------------------------------------"
             
             # இங்கே தான் லேப் என்விரான்மென்ட் தொடங்க வேண்டும்! 
-            # (இப்போதைக்கு ஒரு dummy bash prompt வைக்கலாம்)
-            echo "லேப்-க்குள் நுழைகிறீர்கள்... (Type 'exit' to leave)"
+            echo "லேப்-க்குள் நுழைகிறீர்கள்... (Type 'exit' to check your task)"
             bash 
+            
+            # 🌟 புது அப்டேட்: யூசர் 'exit' கொடுத்ததும் செக்கிங் லாஜிக் ரன் ஆகும் 🌟
+            if [[ -f "$PROJECT_ROOT/core/checker.sh" ]]; then
+                source "$PROJECT_ROOT/core/checker.sh"
+                check_mission "$mission_folder"
+            else
+                echo -e "\n⚠️ Warning: checker.sh not found in core/ directory!"
+            fi
             
         else
             echo "Error: instructions.txt not found in $mission_folder!"
