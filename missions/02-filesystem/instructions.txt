@@ -1,0 +1,23 @@
+
+
+cat << 'EOF' > missions/02-filesystem/instructions.txt
+========================================
+ 🚀 Mission 2: Filesystem Management 
+========================================
+
+[English]
+Your Task:
+1. Create a new directory named 'backup' inside your Home directory (~/).
+2. Copy the 'hello.txt' file (from ~/lab_test/) into the 'backup' directory and rename it as 'hello_backup.txt'.
+
+[தமிழ்]
+உங்கள் டாஸ்க்:
+1. உங்கள் Home டைரக்டரிக்குள் (~/) 'backup' என்ற பெயரில் ஒரு புதிய டைரக்டரியை உருவாக்குங்கள்.
+2. முந்தைய டாஸ்க்கில் உருவாக்கிய '~/lab_test/hello.txt' ஃபைலை '~/backup' டைரக்டரிக்குள் 'hello_backup.txt' என்ற பெயரில் காப்பி (Copy) செய்யுங்கள்.
+
+----------------------------------------
+Good Luck, Admin! Type your commands below.
+(Type 'exit' to check your task and leave)
+========================================
+EOF
+
