@@ -34,3 +34,4 @@ EOF
     echo "Lab: $lab_name"
     echo "Path: $lab_path"
 }
+create_lab "$@"
