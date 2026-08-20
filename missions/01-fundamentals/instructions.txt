@@ -1,8 +1,20 @@
+cat << 'EOF' > missions/01-fundamentals/instructions.txt
 ========================================
-மிஷன் 1: Linux Fundamentals 
+ 🚀 Mission 1: Linux Fundamentals 
 ========================================
+
+[English]
+Your Task:
+1. Create a new directory named 'lab_test' inside /tmp.
+2. Create an empty file named 'hello.txt' inside that directory.
+
+[தமிழ்]
 உங்கள் டாஸ்க்:
-1. 'lab_test' என்ற பெயரில் ஒரு புதிய டைரக்டரியை /tmp -க்குள் உருவாக்குங்கள்.
+1. /tmp டைரக்டரிக்குள் 'lab_test' என்ற பெயரில் ஒரு புதிய டைரக்டரியை உருவாக்குங்கள்.
 2. அந்த டைரக்டரிக்குள் 'hello.txt' என்ற ஃபைலை உருவாக்குங்கள்.
 
-Good Luck, Admin!
+----------------------------------------
+Good Luck, Admin! Type your commands below.
+(Type 'exit' to check your task and leave)
+========================================
+EOF
